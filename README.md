@@ -1,7 +1,8 @@
-# EST_front_end_2
+# ✨ESTsoft_Front_end_2기 부트캠프
 
-프론트엔드 2기 수업 내용 실습과 연습 예제를 기록하고 있습니다
+### 📝Learning Skills
 
-1. HTML
-2. CSS
-3. JS
+<img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+<img src ="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white">
+<img src ="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white">
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
