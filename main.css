@@ -91,14 +91,7 @@ article {
   top: 26px;
 }
 
-.griditem01,
-.griditem02,
-.griditem03,
-.griditem04,
-.griditem05,
-.griditem06,
-.griditem07,
-.griditem08 {
+.movie_list {
   position: relative;
   border: 1px solid #bdbdbd;
   border-radius: 10px;
@@ -200,7 +193,7 @@ article .list-ch {
   top: 400px;
 }
 .booking,
-.notice {
+.trailer {
   display: block;
   font-size: 14px;
   font-weight: 500px;
@@ -221,7 +214,7 @@ article .list-ch {
   top: 405px;
 }
 
-.notice {
+.trailer {
   border-radius: 0 0 10px 0;
   top: 405px;
 }
