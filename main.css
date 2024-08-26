@@ -12,55 +12,44 @@
   white-space: nowrap;
   border: 0;
 }
-/* font-family: "Roboto", sans-serif; */
+
 .mainbox {
   width: 1060px;
   height: 1170px;
   background-color: #f2f2f2;
   border: 2px solid #bdbdbd;
   border-radius: 15px;
-  margin: 165px auto;
-  position: relative;
-}
-.jungletitle {
-  font-size: 24px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  margin-top: 41px;
-  line-height: 28.13px;
+  margin: 86px auto 135px;
 }
 
-.division-line {
-  border-top: 2px solid #bdbdbd;
-  margin: auto;
-  width: 650px;
-  height: 0px;
-  margin: 32px 0 28px 205px;
-}
-.nav {
-  width: 327px;
-  height: 19px;
-  margin: auto;
-  margin-bottom: 28px;
-}
-.header {
+.header h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 700;
+  color: black;
+  margin: 41px 0 37px;
   text-align: center;
 }
 
-.nav > ul {
+.division-line {
+  width: 650px;
+  border: 2px solid #bdbdbd;
+  margin: 0 auto 28px;
+}
+
+.nav ul {
+  width: 372px;
   display: flex;
-  font-size: 16px;
-  font-family: "Roboto", sans-serif;
   justify-content: space-between;
+  margin: 0 auto 28px;
   color: #828282;
-}
-
-.menu {
-  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
   font-family: "Roboto", sans-serif;
 }
 
-.menu:hover {
+.nav ul li:first-child {
   font-weight: 900;
   color: black;
 }
@@ -68,251 +57,193 @@
 .main {
   width: 1003px;
   height: 962px;
-  border: 2px solid #bdbdbd;
+  margin-left: 29px;
+  background-color: white;
   border-radius: 15px;
-  background-color: #ffffff;
-  position: absolute;
-  left: 29px;
+  border: 2px solid #bdbdbd;
 }
-
-article {
-  width: 220px;
-  height: 441px;
-}
-
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 220px;
-  padding-bottom: 441px;
-  gap: 24px 23px;
-  position: absolute;
-  left: 27px;
-  top: 26px;
+  margin: 26px 0 0 27px;
+  gap: 23px 24px;
+  position: relative;
 }
 
 .movie_list {
+  border: 1px solid #bdbdbd;
+  width: 220px;
+  height: 441px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 19px 0 0 20px;
   position: relative;
-  border: 1px solid #bdbdbd;
-  border-radius: 10px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
-
 article img {
-  position: absolute;
-  left: 20px;
-  top: 19px;
-  border: 1px solid #bdbdbd;
+  width: 180px;
+  height: 250px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
   border-radius: 10px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border: 1px solid #bdbdbd;
 }
 
 article h3 {
-  position: absolute;
-  top: 291px;
-  left: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  color: black;
   font-weight: 900;
   font-size: 16px;
-  font-family: "Noto Sans KR", sans-serif;
   line-height: 23.17px;
+  padding: 11px 0 12px 0;
 }
 
-article .list-info {
-  position: absolute;
-  left: 20px;
-  top: 20px;
-}
-
-article .list-star {
-  position: absolute;
-  width: 80px;
-  left: 117px;
-  top: 325px;
-}
-.list-star dd::before {
-  content: "";
-  background-image: url(./images/STARIMAGES/별점이미지.png);
-  width: 14px;
-  height: 14px;
-}
-
-article .list-info {
-  position: absolute;
-  left: 20px;
-  top: 325px;
-}
-article .list-date {
-  position: absolute;
-  left: 20px;
-  top: 349px;
-}
-article .list-ch {
-  position: absolute;
-  left: 20px;
-  top: 373px;
-}
-.list-info,
-.list-date,
-.list-ch,
-.list-star {
-  display: flex;
-  align-items: center;
-}
-
-.list-info > dt,
-.list-date > dt,
-.list-ch > dt,
-.list-star > dt {
+article dt {
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 400;
   font-size: 13px;
+  line-height: 18.32px;
   color: #828282;
-  font-weight: 400;
-  font-family: "Noto Sans KR", sans-serif;
   margin-right: 5px;
-  line-height: 18.82px;
 }
-
-.list-info > dd,
-.list-date > dd,
-.list-ch > dd,
-.list-star > dd {
-  font-size: 13px;
-  color: black;
-  font-weight: 400;
-  font-family: "Noto Sans KR", sans-serif;
-  margin-right: 42px;
-  line-height: 18.82px;
-}
-
-.list-star > dd {
-  position: absolute;
-  left: 47px;
-}
-.bottombt {
-  position: absolute;
-  display: flex;
-  top: 400px;
-}
-.booking,
-.trailer {
-  display: block;
-  font-size: 14px;
-  font-weight: 500px;
+article dd {
   font-family: "Noto Sans KR", sans-serif;
   color: #000000;
-  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18.82px;
+}
+
+article dl {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-info,
+.list-star,
+.list-date,
+.list-ch {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.info_star {
+  display: flex;
+}
+
+.list-star dd::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background-image: url(./images/STARIMAGES/별점이미지.png);
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.bottombt {
+  display: flex;
+  position: absolute;
+  top: 400px;
+  border: 1px solid #bdbdbd;
+  border-radius: 0 0 10px 10px;
+  left: -1.5px;
+}
+.trailer,
+.booking {
   width: 110px;
   height: 41px;
   background-color: #f2f2f2;
-  text-align: center;
-  line-height: 40px;
-  border-radius: 0px 0px 5px 5px;
-  border: 1px solid #bdbdbd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trailer {
+  border-left: 1px solid #bdbdbd;
+  border-radius: 0 0 10px 0;
 }
 
 .booking {
   border-radius: 0 0 0 10px;
-  top: 405px;
 }
-
-.trailer {
-  border-radius: 0 0 10px 0;
-  top: 405px;
-}
-
-.notice::before {
+.trailer::before {
   content: "";
-  background-image: url(./images/MOVIELIST/아이콘_재생.png);
-  display: inline;
   width: 16px;
   height: 16px;
+  background-image: url(./images/MOVIELIST/아이콘_재생.png);
+  display: inline-block;
 }
 
-.list01 {
-  display: grid;
+.bottombt a {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20.27px;
+  font-weight: 500;
+  color: black;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .footer {
   width: 1920px;
   height: 213px;
   background-color: #f2f2f2;
-  margin-top: 135px;
+  margin: auto;
   position: relative;
 }
 
-.footer01 {
-  display: flex;
-  align-items: center;
+.footer01 h2 {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 22px;
-  left: 365px;
-  top: 53px;
+  line-height: 25.78px;
+  color: black;
+  margin-right: 926px;
 }
-
+.footer01 {
+  padding: 53px 0 0 365px;
+  display: flex;
+}
+.sns img {
+  width: 24px;
+  margin-right: 22px;
+}
 .sns {
   display: flex;
-  width: 116px;
-  position: absolute;
   justify-content: space-between;
-  left: 1440px;
-  top: 54px;
 }
 
-.footer01 h2 {
+.footer .division-line {
   position: absolute;
+  width: 1189px;
   left: 366px;
-  top: 53px;
+  border: 1px solid #c4c4c4;
+  margin: 42px 0 36px 0;
 }
 
-.icon {
-  width: 24px;
-  height: 24px;
-}
-address {
-  width: 657px;
-}
 address > ul {
   display: flex;
-  font-family: "Noto Sans KR", sans-serif;
+  margin-right: 440px;
 }
 
-address > ul > li {
-  margin: 0 4px;
+.footer02 {
+  display: flex;
+  margin: 78px 0 38px 365px;
+  font-family: "Noto Sans KR", sans-serif;
   font-size: 14px;
   font-weight: 400;
-}
-.footer02 {
-  width: 1920px;
-  display: flex;
-  left: 365px;
-  top: 155px;
+  line-height: 20.27px;
 }
 
-.footer02 address {
-  position: absolute;
-  left: 356px;
-  top: 155px;
-}
-
-.footer02 > p {
-  position: absolute;
-  left: 1462px;
-  top: 155px;
+.footer02 span {
   font-weight: 700;
 }
 
 address > ul > li:not(:first-child)::before {
   content: "  |  ";
+  margin: 0 5px;
 }
 
-footer .division-line {
-  position: absolute;
-  width: 1189px;
-  margin: 0px;
-  top: 119px;
-  left: 365px;
-}
-
-address span {
+footer p {
+  font-size: 14px;
   font-weight: 700;
+  font-family: "Noto Sans KR", sans-serif;
 }
